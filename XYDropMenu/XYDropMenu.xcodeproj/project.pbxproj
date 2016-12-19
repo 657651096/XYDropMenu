@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1315FF7B1E07C583007273DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315FF7A1E07C583007273DC /* main.m */; };
+		1315FF7E1E07C583007273DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315FF7D1E07C583007273DC /* AppDelegate.m */; };
+		1315FF861E07C583007273DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1315FF851E07C583007273DC /* Assets.xcassets */; };
+		1315FF891E07C583007273DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1315FF871E07C583007273DC /* LaunchScreen.storyboard */; };
+		1315FF951E07C632007273DC /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315FF911E07C632007273DC /* MainTableViewController.m */; };
+		1315FF961E07C632007273DC /* XYDropMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315FF941E07C632007273DC /* XYDropMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1315FF761E07C583007273DC /* XYDropMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYDropMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1315FF7A1E07C583007273DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1315FF7C1E07C583007273DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1315FF7D1E07C583007273DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1315FF851E07C583007273DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1315FF881E07C583007273DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1315FF8A1E07C583007273DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1315FF901E07C632007273DC /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		1315FF911E07C632007273DC /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		1315FF931E07C632007273DC /* XYDropMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDropMenuView.h; sourceTree = "<group>"; };
+		1315FF941E07C632007273DC /* XYDropMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDropMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1315FF731E07C583007273DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1315FF6D1E07C583007273DC = {
+			isa = PBXGroup;
+			children = (
+				1315FF781E07C583007273DC /* XYDropMenu */,
+				1315FF771E07C583007273DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1315FF771E07C583007273DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1315FF761E07C583007273DC /* XYDropMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1315FF781E07C583007273DC /* XYDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1315FF921E07C632007273DC /* XYDropMenu */,
+				1315FF901E07C632007273DC /* MainTableViewController.h */,
+				1315FF911E07C632007273DC /* MainTableViewController.m */,
+				1315FF7C1E07C583007273DC /* AppDelegate.h */,
+				1315FF7D1E07C583007273DC /* AppDelegate.m */,
+				1315FF851E07C583007273DC /* Assets.xcassets */,
+				1315FF871E07C583007273DC /* LaunchScreen.storyboard */,
+				1315FF8A1E07C583007273DC /* Info.plist */,
+				1315FF791E07C583007273DC /* Supporting Files */,
+			);
+			path = XYDropMenu;
+			sourceTree = "<group>";
+		};
+		1315FF791E07C583007273DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1315FF7A1E07C583007273DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1315FF921E07C632007273DC /* XYDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1315FF931E07C632007273DC /* XYDropMenuView.h */,
+				1315FF941E07C632007273DC /* XYDropMenuView.m */,
+			);
+			path = XYDropMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1315FF751E07C583007273DC /* XYDropMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1315FF8D1E07C583007273DC /* Build configuration list for PBXNativeTarget "XYDropMenu" */;
+			buildPhases = (
+				1315FF721E07C583007273DC /* Sources */,
+				1315FF731E07C583007273DC /* Frameworks */,
+				1315FF741E07C583007273DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYDropMenu;
+			productName = XYDropMenu;
+			productReference = 1315FF761E07C583007273DC /* XYDropMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1315FF6E1E07C583007273DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "肖尧";
+				TargetAttributes = {
+					1315FF751E07C583007273DC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NN4X2RMLUN;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 1315FF711E07C583007273DC /* Build configuration list for PBXProject "XYDropMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1315FF6D1E07C583007273DC;
+			productRefGroup = 1315FF771E07C583007273DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1315FF751E07C583007273DC /* XYDropMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1315FF741E07C583007273DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1315FF891E07C583007273DC /* LaunchScreen.storyboard in Resources */,
+				1315FF861E07C583007273DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1315FF721E07C583007273DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1315FF7E1E07C583007273DC /* AppDelegate.m in Sources */,
+				1315FF961E07C632007273DC /* XYDropMenuView.m in Sources */,
+				1315FF7B1E07C583007273DC /* main.m in Sources */,
+				1315FF951E07C632007273DC /* MainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1315FF871E07C583007273DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1315FF881E07C583007273DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1315FF8B1E07C583007273DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1315FF8C1E07C583007273DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1315FF8E1E07C583007273DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN4X2RMLUN;
+				INFOPLIST_FILE = XYDropMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.XYDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c58e62c4-a23e-49a0-bbb3-e7e671dc445c";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_debugv2;
+			};
+			name = Debug;
+		};
+		1315FF8F1E07C583007273DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN4X2RMLUN;
+				INFOPLIST_FILE = XYDropMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.XYDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c58e62c4-a23e-49a0-bbb3-e7e671dc445c";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_debugv2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1315FF711E07C583007273DC /* Build configuration list for PBXProject "XYDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1315FF8B1E07C583007273DC /* Debug */,
+				1315FF8C1E07C583007273DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1315FF8D1E07C583007273DC /* Build configuration list for PBXNativeTarget "XYDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1315FF8E1E07C583007273DC /* Debug */,
+				1315FF8F1E07C583007273DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1315FF6E1E07C583007273DC /* Project object */;
+}
